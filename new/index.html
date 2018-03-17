@@ -13,7 +13,7 @@
           <img src="./images/avatar.png" alt="Avatar"/>
         </div>
         <div class="info">
-          <h1 class="name">Dannie Pashchenko</h1>
+          <h1 class="name">Dan Pashchenko</h1>
           <p class="title">Strong iOS Engineer</p>
           <p class="desc">Clean & stable code. Great value for money</p>
           <div class="socials">
@@ -59,7 +59,7 @@
       <section class="portfolio">
         <div class="container">
           <div class="portfolio-title">
-            Latest <br/> portfolio
+            Latest portfolio
           </div>
           <div class="portfolio-apps">
             <a href="https://itunes.apple.com/us/app/kuni-analog-filters/id1336488891" target="_blank" class="portfolio-app portfolio-kuni">
@@ -104,6 +104,7 @@
               </div>
             </div>
             <div class="contact-form">
+<!-- 
               <form>
                 <input type="text" class="contact-title" placeholder="Title">
                 <textarea class="contact-textarea" placeholder="Message goes here..."></textarea>
@@ -111,6 +112,15 @@
                   Send
                 </button>
               </form>
+ -->
+			 <form method="POST" action="https://formspree.io/contactiosengineer@gmail.com">
+				 <input type="text" name="name" placeholder="Name">
+				 <input type="email" name="email" placeholder="Email">
+				 <input type="hidden" name="_next" value="https://ios-engineer.com/new">
+				 <input type="hidden" name="_gotcha" value="">
+				 <textarea name="message" placeholder="Your message"></textarea>
+				 <button type="submit">Send</button>
+			 </form>
             </div>
           </div>
         </div>
