@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Dannie Pashchenko</title>
+    <title>Dan Pashchenko</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -13,7 +13,7 @@
           <img src="./images/avatar.png" alt="Avatar"/>
         </div>
         <div class="info">
-          <h1 class="name">Dannie Pashchenko</h1>
+          <h1 class="name">Dan Pashchenko</h1>
           <p class="title">Strong iOS Engineer</p>
           <p class="desc">Clean & stable code. Great value for money</p>
           <div class="socials">
@@ -59,7 +59,7 @@
       <section class="portfolio">
         <div class="container">
           <div class="portfolio-title">
-            Latest <br/> portfolio
+            Latest portfolio
           </div>
           <div class="portfolio-apps">
             <a href="https://itunes.apple.com/us/app/kuni-analog-filters/id1336488891" target="_blank" class="portfolio-app portfolio-kuni">
@@ -104,12 +104,11 @@
               </div>
             </div>
             <div class="contact-form">
-              <form>
-                <input type="text" class="contact-title" placeholder="Title" required>
-                <textarea class="contact-textarea" placeholder="Message goes here..." required></textarea>
-                <button type="submit" class="contact-submit">
-                  Send
-                </button>
+              <form method="POST" action="https://formspree.io/contactiosengineer@gmail.com">
+                <textarea class="contact-textarea" name="message" placeholder="Message goes here..." required></textarea>
+                <input type="text" class="contact-title" name="contact" placeholder="How to reach you back? Your email / skype" required>
+                <input type="hidden" name="_gotcha" value="">
+                <button type="submit" class="contact-submit">Send</button>
               </form>
             </div>
           </div>
