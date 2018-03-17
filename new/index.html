@@ -104,23 +104,12 @@
               </div>
             </div>
             <div class="contact-form">
-<!-- 
-              <form>
-                <input type="text" class="contact-title" placeholder="Title">
-                <textarea class="contact-textarea" placeholder="Message goes here..."></textarea>
-                <button type="submit" class="contact-submit">
-                  Send
-                </button>
+              <form method="POST" action="https://formspree.io/contactiosengineer@gmail.com">
+                <textarea class="contact-textarea" name="message" placeholder="Message goes here..."></textarea>
+                <input type="text" class="contact-title" name="contact" placeholder="How to reach you back? Your email / skype">
+                <input type="hidden" name="_gotcha" value="">
+                <button type="submit" class="contact-submit">Send</button>
               </form>
- -->
-			 <form method="POST" action="https://formspree.io/contactiosengineer@gmail.com">
-				 <input type="text" name="name" placeholder="Name">
-				 <input type="email" name="email" placeholder="Email">
-				 <input type="hidden" name="_next" value="https://ios-engineer.com/new">
-				 <input type="hidden" name="_gotcha" value="">
-				 <textarea name="message" placeholder="Your message"></textarea>
-				 <button type="submit">Send</button>
-			 </form>
             </div>
           </div>
         </div>
