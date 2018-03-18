@@ -254,33 +254,6 @@ header .container {
   border-radius: 40px;
   border: 1px solid #e0e0e0e0;
 }
-.portfolio-kuni {
-  background-image: url("./images/portfolio/kuni.png");
-}
-.portfolio-kudak {
-  background-image: url("./images/portfolio/kudak.png");
-}
-.portfolio-valuepad {
-  background-image: url("./images/portfolio/valuepad.png");
-}
-.portfolio-out-of-stock {
-  background-image: url("./images/portfolio/out-of-stock.png");
-}
-.portfolio-slow {
-  background-image: url("./images/portfolio/slowmo.png");
-}
-.portfolio-soufi {
-  background-image: url("./images/portfolio/soufi.png");
-}
-.portfolio-asim-vpn {
-  background-image: url("./images/portfolio/vpn.png");
-}
-.portfolio-robot-voice {
-  background-image: url("./images/portfolio/robot-voice.png");
-}
-.portfolio-vine-to-sound {
-  background-image: url("./images/portfolio/vine-to-sound.png");
-}
 
 
 /** FOOTER */
