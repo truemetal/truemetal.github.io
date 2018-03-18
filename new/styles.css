@@ -159,6 +159,12 @@ header .container {
   right: 15px;
 }
 .hire-btn {
+  width: 172px;
+  height: 42px;
+  font-size: 20px;
+  background-color: #f8e71c;
+  border-radius: 6px;
+  border: 0;
   -webkit-transition: all .1s ease-in-out;
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
@@ -166,14 +172,6 @@ header .container {
 }
 .hire-btn:hover {
   opacity: 0.8;
-}
-.hire-btn {
-  width: 172px;
-  height: 42px;
-  font-size: 20px;
-  background-color: #f8e71c;
-  border-radius: 6px;
-  border: 0;
 }
 .arrow-down-right {
   position: absolute;
