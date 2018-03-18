@@ -18,9 +18,11 @@ function createDownArrowRight() {
   insertAfter(element, parent);
 }
 
-document.getElementById('hire-btn').addEventListener('click', () => {
-  document.getElementById('scroll-to').scrollIntoView({ behavior: 'smooth' });
-});
+$('#hire-btn').on('click', function (event) {
+    event.preventDefault();
+    block = $('#scroll-to').offset().top;
+    $('body,html').animate({scrollTop: block}, 1000);
+ });
 
 createDownArrowRight();
 window.addEventListener('resize', createDownArrowRight);
