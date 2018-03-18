@@ -20,8 +20,8 @@ function createDownArrowRight() {
 
 $('#hire-btn').on('click', function (event) {
     event.preventDefault();
-    block = $('#scroll-to').offset().top;
-    $('body,html').animate({scrollTop: block}, 1000);
+    var block = $('#scroll-to').offset().top;
+    $('body,html').animate({ scrollTop: block }, 1000);
  });
 
 createDownArrowRight();
