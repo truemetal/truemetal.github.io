@@ -304,6 +304,8 @@ footer {
           box-sizing: border-box;
   margin-bottom: 20px;
   font-size: 20px;
+  font-family: 'medium';
+  letter-spacing: 0.8px;
   padding: 20px;
 }
 .contact-textarea {
@@ -316,6 +318,9 @@ footer {
           box-sizing: border-box;
   margin-bottom: 20px;
   font-size: 20px;
+  font-family: 'medium';
+  letter-spacing: 0.8px;
+  line-height: 25px;
   padding: 20px;
 }
 .contact-submit {
@@ -334,39 +339,30 @@ input.contact-title::-webkit-input-placeholder {
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
-  line-height: 25px;
 }
 input.contact-title::-moz-placeholder {
   font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
-  line-height: 25px;
 }
 input.contact-title:-ms-input-placeholder {
   font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
-  line-height: 25px;
 }
 input.contact-title:-moz-placeholder {
   font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
-  line-height: 25px;
 }
 textarea.contact-textarea::-webkit-input-placeholder {
   font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
   line-height: 25px;
 }
 textarea.contact-textarea::-moz-placeholder {
@@ -374,7 +370,6 @@ textarea.contact-textarea::-moz-placeholder {
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
   line-height: 25px;
 }
 textarea.contact-textarea:-ms-input-placeholder {
@@ -382,7 +377,6 @@ textarea.contact-textarea:-ms-input-placeholder {
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
   line-height: 25px;
 }
 textarea.contact-textarea:-moz-placeholder {
@@ -390,7 +384,6 @@ textarea.contact-textarea:-moz-placeholder {
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
-  letter-spacing: 0.8px;
   line-height: 25px;
 }
 .discuss-question {
@@ -560,7 +553,6 @@ textarea.contact-textarea:-moz-placeholder {
     margin: 0 auto;
   }
   .contact-title {
-    height: 40px;
     font-size: 18px;
     padding: 20px;
   }
@@ -600,9 +592,24 @@ textarea.contact-textarea:-moz-placeholder {
   .direct-contact {
     padding-top: 60px;
   }
+  .contact-title {
+  	font-size: 15px;
+  }
   .arrow-down-right {
     border-bottom: 50px solid #fff;
   }
+  input.contact-title::-webkit-input-placeholder {
+  	font-size: 11px;
+	}
+	input.contact-title::-moz-placeholder {
+  	font-size: 11px;
+	}
+	input.contact-title:-ms-input-placeholder {
+  	font-size: 11px;
+	}
+	input.contact-title:-moz-placeholder {
+  	font-size: 11px;
+	}
 }
 
 
