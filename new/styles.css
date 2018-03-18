@@ -48,23 +48,25 @@ table {
 /** COMMON STYLES */
 
 @font-face {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   src: url('./fonts/sf-compact-display-medium.otf');
-  font-weight: 300;
 }
 @font-face {
-  font-family: 'SFCompactDisplay';
+  font-family: 'semibold';
   src: url('./fonts/sf-compact-display-semibold.otf');
-  font-weight: 400;
 }
+@font-face {
+	font-family: 'bold';
+	src: url('./fonts/sf-compact-display-bold.otf');
+}
+
 body {
-  font-family: 'SFCompactDisplay';
-  font-weight: 200;
   min-width: 320px;
+  font-family: 'medium';
 }
 button {
-  font-family: 'SFCompactDisplay';
-  font-weight: 300;
+  font-family: 'bold';
+	letter-spacing: 0.8px;
 }
 .container {
   max-width: 1140px;
@@ -103,19 +105,20 @@ header .container {
 }
 .name {
   font-size: 36px;
-  font-weight: 400;
+  font-family: 'semibold';
   color: #fff;
   letter-spacing: 0.64px;
   margin-bottom: 20px;
 }
 .title {
   font-size: 36px;
-  font-weight: 400;
+  font-family: 'semibold';
   color: #f8e71c;
   letter-spacing: 0.64px;
   margin-bottom: 20px;
 }
 .desc {
+  font-family: 'medium';
   font-size: 30px;
   color: #f8e71c;
   letter-spacing: 0.48px;
@@ -160,7 +163,7 @@ header .container {
 }
 .hire-btn {
   width: 172px;
-  height: 42px;
+  height: 45px;
   font-size: 20px;
   background-color: #f8e71c;
   border-radius: 6px;
@@ -202,13 +205,13 @@ header .container {
   text-align: center;
   max-width: 130px;
   font-size: 30px;
-  font-weight: 400;
+  font-family: 'semibold';
   color: #000000;
   letter-spacing: 0.48px;
 }
 .experience-number {
   font-size: 64px;
-  font-weight: 400;
+  font-family: 'semibold';
   color: #000000;
   letter-spacing: 0.25px;
   margin-bottom: 10px;
@@ -222,13 +225,13 @@ header .container {
   margin-bottom: 110px;
 }
 .portfolio .container {
-  padding-top: 126px;
+  padding-top: 100px;
   text-align: center;
   max-width: 1057px;
 }
 .portfolio-title {
   font-size: 36px;
-  font-weight: 400;
+  font-family: 'semibold';
   line-height: 45px;
   text-transform: uppercase;
 }
@@ -241,7 +244,7 @@ header .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 .portfolio-app {
   display: inline-block;
@@ -252,7 +255,6 @@ header .container {
   border-radius: 40px;
   border: 1px solid #e0e0e0e0;
 }
-
 
 /** FOOTER */
 
@@ -328,7 +330,7 @@ footer {
   cursor: pointer;
 }
 input.contact-title::-webkit-input-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -336,7 +338,7 @@ input.contact-title::-webkit-input-placeholder {
   line-height: 25px;
 }
 input.contact-title::-moz-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -344,7 +346,7 @@ input.contact-title::-moz-placeholder {
   line-height: 25px;
 }
 input.contact-title:-ms-input-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -352,7 +354,7 @@ input.contact-title:-ms-input-placeholder {
   line-height: 25px;
 }
 input.contact-title:-moz-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -360,7 +362,7 @@ input.contact-title:-moz-placeholder {
   line-height: 25px;
 }
 textarea.contact-textarea::-webkit-input-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -368,7 +370,7 @@ textarea.contact-textarea::-webkit-input-placeholder {
   line-height: 25px;
 }
 textarea.contact-textarea::-moz-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -376,7 +378,7 @@ textarea.contact-textarea::-moz-placeholder {
   line-height: 25px;
 }
 textarea.contact-textarea:-ms-input-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -384,7 +386,7 @@ textarea.contact-textarea:-ms-input-placeholder {
   line-height: 25px;
 }
 textarea.contact-textarea:-moz-placeholder {
-  font-family: 'SFCompactDisplay';
+  font-family: 'medium';
   font-size: 20px;
   opacity: 0.75;
   color: #000000;
@@ -393,21 +395,21 @@ textarea.contact-textarea:-moz-placeholder {
 }
 .discuss-question {
   font-size: 30px;
-  font-weight: 400;
+  font-family: 'semibold';
   color: #000000;
   letter-spacing: 0.48px;
   margin-bottom: 21px;
 }
 .discuss-drop-a-line {
   font-size: 20px;
-  font-weight: 300;
+  font-family: 'medium';
   color: #000000;
   letter-spacing: 0.8px;
   margin-bottom: 62px;
 }
 .discuss-find-me {
   font-size: 20px;
-  font-weight: 400;
+  font-family: 'semibold';
   color: #000000;
   letter-spacing: 0.8px;
   margin-bottom: 13px;
