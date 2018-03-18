@@ -105,8 +105,8 @@
             </div>
             <div class="contact-form">
               <form method="POST" action="https://formspree.io/contactiosengineer@gmail.com">
-                <textarea class="contact-textarea" name="message" placeholder="Message goes here..."></textarea>
-                <input type="text" class="contact-title" name="contact" placeholder="How to reach you back? Your email / skype">
+                <textarea class="contact-textarea" name="message" placeholder="Message goes here..." required></textarea>
+                <input type="text" class="contact-title" name="contact" placeholder="How to reach you back? Your email / skype" required>
                 <input type="hidden" name="_gotcha" value="">
                 <button type="submit" class="contact-submit">Send</button>
               </form>
@@ -116,6 +116,7 @@
       </footer>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
