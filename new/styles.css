@@ -255,7 +255,7 @@ header .container {
   border: 1px solid #e0e0e0e0;
 }
 .portfolio-kuni {
-  background-image: url("./images/portfolio/kuni-analog-filters.jpg");
+  background-image: url("./images/portfolio/kuni.png");
 }
 .portfolio-kudak {
   background-image: url("./images/portfolio/kudak.png");
@@ -267,19 +267,19 @@ header .container {
   background-image: url("./images/portfolio/out-of-stock.png");
 }
 .portfolio-slow {
-  background-image: url("./images/portfolio/slow.jpeg");
+  background-image: url("./images/portfolio/slowmo.png");
 }
 .portfolio-soufi {
-  background-image: url("./images/portfolio/soufi.jpg");
+  background-image: url("./images/portfolio/soufi.png");
 }
 .portfolio-asim-vpn {
-  background-image: url("./images/portfolio/asim-vpn.jpg");
+  background-image: url("./images/portfolio/vpn.png");
 }
 .portfolio-robot-voice {
-  background-image: url("./images/portfolio/robot-voice.jpg");
+  background-image: url("./images/portfolio/robot-voice.png");
 }
 .portfolio-vine-to-sound {
-  background-image: url("./images/portfolio/vine-to-sound.jpg");
+  background-image: url("./images/portfolio/vine-to-sound.png");
 }
 
 
