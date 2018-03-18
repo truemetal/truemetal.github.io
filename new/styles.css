@@ -552,15 +552,6 @@ textarea.contact-textarea:-moz-placeholder {
   .discuss-socials {
     margin: 0 auto;
   }
-  .contact-title {
-    font-size: 18px;
-    padding: 20px;
-  }
-  .contact-textarea {
-    height: 100px;
-    font-size: 18px;
-    padding: 20px;
-  }
 }
 
 
@@ -592,24 +583,9 @@ textarea.contact-textarea:-moz-placeholder {
   .direct-contact {
     padding-top: 60px;
   }
-  .contact-title {
-  	font-size: 15px;
-  }
   .arrow-down-right {
     border-bottom: 50px solid #fff;
   }
-  input.contact-title::-webkit-input-placeholder {
-  	font-size: 11px;
-	}
-	input.contact-title::-moz-placeholder {
-  	font-size: 11px;
-	}
-	input.contact-title:-ms-input-placeholder {
-  	font-size: 11px;
-	}
-	input.contact-title:-moz-placeholder {
-  	font-size: 11px;
-	}
 }
 
 
