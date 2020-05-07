@@ -125,13 +125,20 @@ header .container {
   margin-bottom: 59px;
 }
 .socials {
-  width: 170px;
+  width: 226px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.socials .toptal {
+  display: inline-block;
+  background-image: url("./images/socials/white-toptal.svg");
+  background-size: 22px 30px;
+  width: 22px;
+  height: 30px;
 }
 .socials .up {
   display: inline-block;
@@ -408,13 +415,20 @@ textarea.contact-textarea:-moz-placeholder {
   margin-bottom: 13px;
 }
 .discuss-socials {
-  width: 170px;
+  width: 226px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.discuss-socials .toptal {
+  display: inline-block;
+  background-image: url("./images/socials/black-toptal.svg");
+  background-size: 22px 30px;
+  width: 22px;
+  height: 30px;
 }
 .discuss-socials .up {
   display: inline-block;
