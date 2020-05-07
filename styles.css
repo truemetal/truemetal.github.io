@@ -139,6 +139,8 @@ header .container {
   background-size: 22px 30px;
   width: 22px;
   height: 30px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
 }
 .socials .up {
   display: inline-block;
@@ -147,7 +149,7 @@ header .container {
   width: 42px;
   height: 30px;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 .socials .linkedin {
   display: inline-block;
@@ -429,6 +431,8 @@ textarea.contact-textarea:-moz-placeholder {
   background-size: 22px 30px;
   width: 22px;
   height: 30px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
 }
 .discuss-socials .up {
   display: inline-block;
@@ -437,7 +441,7 @@ textarea.contact-textarea:-moz-placeholder {
   width: 42px;
   height: 30px;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 .discuss-socials .linkedin {
   display: inline-block;
