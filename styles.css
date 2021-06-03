@@ -125,7 +125,7 @@ header .container {
   margin-bottom: 59px;
 }
 .socials {
-  width: 226px;
+  width: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -417,7 +417,7 @@ textarea.contact-textarea:-moz-placeholder {
   margin-bottom: 13px;
 }
 .discuss-socials {
-  width: 226px;
+  width: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
