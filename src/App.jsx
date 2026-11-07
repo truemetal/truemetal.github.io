@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy, useEffect } from 'react';
 import WorkSpace from './WorkSpace.jsx';
 import ContactCode from './ContactCode.jsx';
 import Expertise from './Expertise.jsx';
@@ -7,17 +7,19 @@ import ContactForm from './ContactForm.jsx';
 import SocialLinks from './SocialLinks.jsx';
 import SiteHeader from './SiteHeader.jsx';
 import Skills from './Skills.jsx';
+import { startSectionAnalytics } from './section-analytics.js';
 
 const Badge = lazy(() => import('./Badge.jsx'));
 const email = 'contactiosengineer@gmail.com';
 const toptal = 'https://www.toptal.com/developers/resume/bogdan-pashchenko';
 
 export default function App({ renderBadge = true }) {
+  useEffect(startSectionAnalytics, []);
   return <Typographic>
     <a href="#main" className="skip-link">Skip to content</a>
     <SiteHeader />
     <main id="main">
-      <section id="home" className="hero" aria-labelledby="hero-title">
+      <section id="home" className="hero" aria-labelledby="hero-title" data-analytics-section="hero">
         <ContactCode variant="hero" />
         <div className="hero-badge">{renderBadge && <Suspense fallback={null}><Badge /></Suspense>}</div>
         <div className="hero-content">
@@ -35,7 +37,7 @@ export default function App({ renderBadge = true }) {
 
       <Skills />
 
-      <section id="contact" className="contact-section" aria-labelledby="contact-title"><ContactCode /><p className="eyebrow section-label">YOUR NEXT iOS PROJECT</p><h2 id="contact-title">Want to discuss your&nbsp;project?</h2><p className="contact-description">Just drop me a&nbsp;line and I’ll get back to&nbsp;you</p><div className="contact-actions"><ContactForm email={email} /></div><div className="contact-footer"><span>Dan Pashchenko<br /><span className="footer-role">Independent iOS engineer</span></span><SocialLinks /><a className="back-top" href="#home" aria-label="Back to top">↑</a></div></section>
+      <section id="contact" className="contact-section" aria-labelledby="contact-title" data-analytics-section="contact"><ContactCode /><p className="eyebrow section-label">YOUR NEXT iOS PROJECT</p><h2 id="contact-title">Want to discuss your&nbsp;project?</h2><p className="contact-description">Just drop me a&nbsp;line and I’ll get back to&nbsp;you</p><div className="contact-actions"><ContactForm email={email} /></div><div className="contact-footer"><span>Dan Pashchenko<br /><span className="footer-role">Independent iOS engineer</span></span><SocialLinks /><a className="back-top" href="#home" aria-label="Back to top">↑</a></div></section>
     </main>
   </Typographic>;
 }

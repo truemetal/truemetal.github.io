@@ -62,7 +62,7 @@ export default function WorkSpace() {
   // Also scrolls to a project named in the URL hash.
   useWorkStack(sectionRef);
 
-  return <Typographic><section ref={sectionRef} id="work" className="work-section workspace-section" aria-labelledby="work-title">
+  return <Typographic><section ref={sectionRef} id="work" className="work-section workspace-section" aria-labelledby="work-title" data-analytics-section="portfolio">
     <div className="section-heading">
       <div><p className="eyebrow section-label">SELECTED WORK</p><h2 id="work-title">Built for real life.</h2></div>
       <p className="section-intro">A few apps I’ve helped bring into people’s everyday lives.</p>

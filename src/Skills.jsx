@@ -6,7 +6,7 @@ import { resumeUrl as defaultResumeUrl } from './resume.js';
 import './Skills.css';
 
 export default function Skills({ resumeUrl = defaultResumeUrl }) {
-  return <Typographic><section className="skills-section" id="skills" aria-labelledby="skills-title">
+  return <Typographic><section className="skills-section" id="skills" aria-labelledby="skills-title" data-analytics-section="skills">
     <div className="skills-inner">
       <header className="skills-heading">
         <div>

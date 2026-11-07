@@ -12,7 +12,7 @@ const topics = [
 ];
 
 export default function Expertise({ profileUrl }) {
-  return <Typographic><section className="expertise-section expertise-illustrated" aria-labelledby="expertise-title">
+  return <Typographic><section className="expertise-section expertise-illustrated" aria-labelledby="expertise-title" data-analytics-section="expertise">
     <div className="expertise-summary">
       <p className="eyebrow section-label">WHAT I BRING</p>
       <h2 id="expertise-title"><span>Engineering beyond</span> the interface.</h2>
