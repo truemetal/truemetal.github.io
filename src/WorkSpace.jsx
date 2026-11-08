@@ -64,8 +64,8 @@ export default function WorkSpace() {
 
   return <Typographic><section ref={sectionRef} id="work" className="work-section workspace-section" aria-labelledby="work-title" data-analytics-section="portfolio">
     <div className="section-heading">
-      <div><p className="eyebrow section-label">SELECTED WORK</p><h2 id="work-title">Built for real life.</h2></div>
-      <p className="section-intro">A few apps I’ve helped bring into people’s everyday lives.</p>
+      <div><p className="eyebrow section-label">SELECTED WORK</p><h2 id="work-title">Built for real life</h2></div>
+      <p className="section-intro">A few apps I’ve helped bring into people’s everyday lives</p>
     </div>
 
     <div className="workspace-projects"><div className="workspace-deck">

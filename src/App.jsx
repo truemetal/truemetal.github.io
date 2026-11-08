@@ -23,10 +23,10 @@ export default function App({ renderBadge = true }) {
         <ContactCode variant="hero" />
         <div className="hero-badge">{renderBadge && <Suspense fallback={null}><Badge /></Suspense>}</div>
         <div className="hero-content">
-          <h1 id="hero-title">Hi, I’m Dan.</h1>
+          <h1 id="hero-title">Hi, I’m Dan</h1>
           <p className="hero-role">Strong iOS Engineer</p>
-          <p className="hero-promise">Clean &amp; stable code.<br />Great value for&nbsp;money</p>
-          <p className="hero-description">I build native apps from scratch and help take existing products to the next level.</p>
+          <p className="hero-promise">Clean &amp; stable code<br />Great value for&nbsp;money</p>
+          <p className="hero-description">I build native apps from scratch and help take existing products to the next level</p>
         </div>
         <dl className="stats-grid hero-stats" aria-label="Experience at a glance"><div><dt>years in iOS</dt><dd>14</dd></div><div><dt>years in Swift</dt><dd>12</dd></div><div><dt>iOS apps made</dt><dd>40+</dd></div><div><dt>years in IT</dt><dd>20</dd></div></dl>
       </section>

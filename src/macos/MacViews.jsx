@@ -47,11 +47,11 @@ const projects = [
 ];
 
 const topics = [
-  { icon: 'phone', title: 'Native, through and through.', description: 'Swift, SwiftUI, UIKit and Objective-C.' },
-  { icon: 'shield', title: 'Secure access. Connected systems.', description: 'Passkey authentication, secure sign-in and integrations with APIs and external services.' },
-  { icon: 'sparkles', title: 'The technically tricky parts.', description: 'Image and video processing, Metal, Core Image and on-device intelligence.' },
-  { icon: 'layers', title: 'A solid foundation.', description: 'App architecture, codebase modernisation and the path from MVP to App Store.' },
-  { icon: 'person', title: 'Knowledge shared with teams.', description: 'Experience delivering corporate training for development teams.' },
+  { icon: 'phone', title: 'Native, through and through', description: 'Swift, SwiftUI, UIKit and Objective-C.' },
+  { icon: 'shield', title: 'Secure access. Connected systems', description: 'Passkey authentication, secure sign-in and integrations with APIs and external services.' },
+  { icon: 'sparkles', title: 'The technically tricky parts', description: 'Image and video processing, Metal, Core Image and on-device intelligence.' },
+  { icon: 'layers', title: 'A solid foundation', description: 'App architecture, codebase modernisation and the path from MVP to App Store.' },
+  { icon: 'person', title: 'Knowledge shared with teams', description: 'Experience delivering corporate training for development teams.' },
 ];
 
 const skillIcons = {
@@ -109,7 +109,7 @@ export function OverviewView({ navigate }) {
           <span className="mac-row-platform">iOS</span><MacIcon name="chevronRight" />
         </button>)}
       </div>
-      <p className="mac-section-footnote">A few apps I’ve helped bring into people’s everyday lives.</p>
+      <p className="mac-section-footnote">A few apps I’ve helped bring into people’s everyday lives</p>
     </section>
 
     <section className="mac-content-section" aria-labelledby="mac-overview-profile">

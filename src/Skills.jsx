@@ -11,7 +11,7 @@ export default function Skills({ resumeUrl = defaultResumeUrl }) {
       <header className="skills-heading">
         <div>
           <p className="eyebrow section-label">SKILLS & TOOLKIT</p>
-          <h2 id="skills-title">Technical skills.</h2>
+          <h2 id="skills-title">Technical skills</h2>
         </div>
         {resumeUrl && <a className="skills-resume text-link roll-link" href={resumeUrl} download="dan-pashchenko-resume.pdf">
           <RollingText>Download resume</RollingText>
