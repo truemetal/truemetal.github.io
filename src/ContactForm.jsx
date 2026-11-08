@@ -1,8 +1,8 @@
 import './ContactForm.css';
 import RollingText from './RollingText.jsx';
 
-export default function ContactForm({ email }) {
-  return <form className="contact-form" method="POST" action={`https://formspree.io/${email}`}>
+export default function ContactForm() {
+  return <form className="contact-form" method="POST" action="https://formspree.io/f/xkjjakbq">
     <label className="contact-form-field">
       <span>Your message</span>
       <textarea name="message" placeholder="Tell me about your project…" rows="5" required />
